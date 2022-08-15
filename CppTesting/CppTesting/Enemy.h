@@ -3,16 +3,32 @@ class Enemy
 {
 public:
 	Enemy();
-protected:
-	int b;
+private:
+	int health;
+	int damage;
+	int range;
+	int stamina;
 
-	void virtual print();
+protected:
+
 };
 
-class kaka : public Enemy
+class ninja : public Enemy
 {
-public:
-	int Age;
-	kaka(int age) : Age(age){};
-	void print(int x);
+
+};
+
+class knight : public Enemy
+{
+
+};
+
+class archer : public Enemy
+{
+
+};
+
+class wizzard : public Enemy
+{
+
 };
