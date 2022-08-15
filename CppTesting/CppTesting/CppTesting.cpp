@@ -1,16 +1,16 @@
 #include <iostream>
+#include "Enemy.h"
 //#include <bits/stdc++.h>;
-int addOne(int &x)
-{
-    return x++;
-}
-
-
 int main()
 {
-    int a = 5;
-    int* aRef = &a;
-    addOne(a);
-    std::cout << a <<std::endl;
-    std::cout << *aRef;
+	//Enemy em;
+
+	//Enemy* emp = &em;
+
+	//emp->print();
+
+	kaka kak;
+	kaka* kakp = &kak;
+
+	kakp->print();
 }
