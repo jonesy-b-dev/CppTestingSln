@@ -1,0 +1,7 @@
+﻿  Junk.cpp
+D:\Code Projects\C++\CppTestingSln\CppTesting\Junk\Junk.cpp(15,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code Projects\C++\CppTestingSln\CppTesting\Junk\Junk.cpp(26,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code Projects\C++\CppTestingSln\CppTesting\Junk\Junk.cpp(97,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Code Projects\C++\CppTestingSln\CppTesting\Junk\Junk.cpp(125,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Code Projects\C++\CppTestingSln\CppTesting\Junk\Junk.cpp(154,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Junk.vcxproj -> D:\Code Projects\C++\CppTestingSln\CppTesting\x64\Debug\Junk.exe
