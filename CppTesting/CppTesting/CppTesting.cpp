@@ -3,5 +3,6 @@
 
 int main()
 {
-	Enemy* enm = new Enemy(100, 50, 3, 300);
+	ninja nin1(1, 3, 4, 6);
+
 }
