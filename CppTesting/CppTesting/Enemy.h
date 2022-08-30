@@ -21,7 +21,7 @@ class ninja : public Enemy
 	{
 		std::cout << "ninja attack";
 	}
-	Health = 2;
+	//Health = 2;
 };
 
 class knight : public Enemy
