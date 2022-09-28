@@ -1,11 +1,16 @@
 #include <iostream>
-using namespace std; 
-int main() 
+using namespace std;
+
+int main()
 {
-	int motherAge = 29;
-	int sonAge = 36;
-	if (sonAge > motherAge)
-	{
-		throw "Wrong age values";
-	}
-} 
+    int ages[5];
+
+    for (int i = 0; i < 5; ++i)
+    {
+        cin >> ages[i];
+    }
+    //your code goes here
+
+
+    return 0;
+}
