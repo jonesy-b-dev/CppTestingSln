@@ -1,16 +1,8 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main()
 {
-    int ages[5];
-
-    for (int i = 0; i < 5; ++i)
-    {
-        cin >> ages[i];
-    }
-    //your code goes here
-
-
-    return 0;
+	char* name = "Cherno";
+	name[2] = 'a';
 }

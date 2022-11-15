@@ -3,11 +3,14 @@
 
 int main()
 {
-	int motherAge = 29;
-	int sonAge = 36;
-	if (sonAge > motherAge)
+	int example[5];
+
+	//std::cout << sizeof(example) / sizeof(int);
+
+	for (int i = 0; i < sizeof(example) / sizeof(int); i++)
 	{
-		throw "Wrong age values";
+		example[i] = i;
+		std::cout << example[i];
 	}
-	//ninja nin1(1, 3, 4, 6);
+	std::cin.get();
 }
