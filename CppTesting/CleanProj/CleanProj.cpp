@@ -3,6 +3,5 @@
 
 int main()
 {
-	char* name = "Cherno";
-	name[2] = 'a';
+	const char* name = "Cherno";
 }
