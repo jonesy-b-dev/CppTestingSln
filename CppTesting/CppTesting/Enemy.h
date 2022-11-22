@@ -21,6 +21,7 @@ class ninja : public Enemy
 	{
 		std::cout << "ninja attack";
 	}
+
 	//Health = 2;
 };
 

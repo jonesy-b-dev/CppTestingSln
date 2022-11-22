@@ -3,5 +3,7 @@
 
 int main()
 {
-	const char* name = "Cherno";
+	int x;
+
+	std::cin >> x;
 }

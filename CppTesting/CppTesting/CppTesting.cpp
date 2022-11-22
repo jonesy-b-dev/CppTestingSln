@@ -11,6 +11,7 @@ int main()
 	{
 		example[i] = i;
 		std::cout << example[i];
+
 	}
 	std::cin.get();
 }
